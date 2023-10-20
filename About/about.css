@@ -5,8 +5,8 @@ min-height: 100vh;
 .about-me-image img {
    border: .3em solid white;
    border-radius: 0.625em;
-   width: 40em;
-   height: 40em;
+   width: 30em;
+   height: 30em;
    background-color: white;
    mix-blend-mode: multiply;
    margin-left: 10em;
@@ -20,7 +20,7 @@ min-height: 100vh;
    text-align: left;
    font-size: 1em;
    margin-top: 5em !important;
-   margin-left: 10em !important;
+   margin-left: 6em !important;
 }
 
 .about-section {
@@ -29,13 +29,7 @@ min-height: 100vh;
 
 
 
-.about-content {
-  flex: 1;
-  max-width: 40%;
-  margin-left: 1em;
-  text-align: left;
-  margin-top: 2em; 
-}
+
 
 p {
    font-size: 1.5em;
