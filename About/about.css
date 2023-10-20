@@ -17,22 +17,16 @@ min-height: 100vh;
    flex: 1;
    max-width: 40%;
    margin-left: 15em;
-
+   text-align: center;
    font-size: 1em;
-   margin-top: 5em !important;
-   margin-left: 11em !important;
+   margin-top: 4em !important;
+   margin-left: 6em !important;
 }
 
 .about-section {
    display: flex;
 }
 
-
-
-
-
 p {
    font-size: 1.5em;
-   text-align: left;
-      margin-left: 1em;
 }

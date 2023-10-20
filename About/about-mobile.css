@@ -18,21 +18,23 @@
      margin-top: 2em; /* Add some margin at the top */
       margin-left: -1em;
   }
-h2{
+.about-title{
   white-space: nowrap;
-  margin-left: -9em;
+  margin-left: -2em;
   margin-top: -1em;
+  
 }
+
   .about-section {
      flex-direction: column; /* Stack items vertically for smaller screens */
      align-items: center; /* Center items horizontally */
-      margin-left: -1em;
+      
   }
   
   p {
      font-size: 1em; /* Adjust font size for smaller screens */
-     width: em;
+    
      text-align: left;
-     margin-left: -8em;
+     margin-left: -3em;
   }
 }
