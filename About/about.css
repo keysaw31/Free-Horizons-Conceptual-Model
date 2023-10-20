@@ -17,10 +17,10 @@ min-height: 100vh;
    flex: 1;
    max-width: 40%;
    margin-left: 15em;
-   text-align: left;
+
    font-size: 1em;
    margin-top: 5em !important;
-   margin-left: 6em !important;
+   margin-left: 11em !important;
 }
 
 .about-section {
@@ -33,4 +33,6 @@ min-height: 100vh;
 
 p {
    font-size: 1.5em;
+   text-align: left;
+      margin-left: 1em;
 }
