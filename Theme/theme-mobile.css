@@ -1,37 +1,37 @@
 @media screen and (max-width: 768px) {
    header.navbar {
-      padding: 5px 0; /* Adjust padding for smaller screens */
+      padding: 5px 0;
    }
 
    header.navbar a {
-      font-size: 1em; /* Adjust font size for smaller screens */
+      font-size: 1em;
    }
 
    .navigation ul {
-      margin-top: 0; /* Remove margin on top */
+      margin-top: 0;
    }
 
    .navigation li {
-      margin: 0 5px; /* Adjust margin for smaller screens */
+      margin: 0 5px;
    }
 
    .navigation a {
-      font-size: 16px; /* Adjust font size for smaller screens */
+      font-size: 16px;
    }
 
    .footer-content {
-      flex-direction: column; /* Stack content vertically for smaller screens */
+      flex-direction: column;
    }
 
    .left, .right {
-      text-align: center; /* Center text for smaller screens */
+      text-align: center;
    }
 
    .footer a {
-      margin: 5px 0; /* Adjust margin for smaller screens */
+      margin: 5px 0;
    }
 
    .footer img {
-      width: 20px; /* Adjust image size for smaller screens */
+      width: 20px;
    }
 }

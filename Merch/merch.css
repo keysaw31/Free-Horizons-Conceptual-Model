@@ -1,5 +1,4 @@
 /* merch.css */
-
 header.navbar a {
    color: white;
    text-decoration: none;
@@ -41,13 +40,12 @@ header.navbar a {
 }
 
 .merch-section {
-   display: flex; /* Use flexbox for layout */
-   justify-content: space-around; /* Center items horizontally */
-   margin-bottom: 20px; /* Add some space between sections */
+   display: flex; 
+   justify-content: space-around; 
 }
 
 .merch-bar li {
-   margin: 0 10px; /* Add some space between items */
+   margin: 0 10px; 
 }
 .merch-items {
 font-size: 2em;
@@ -57,19 +55,18 @@ ul.merch-bar a{
    font-size: 1em;
    color: white;
 }
-/* LIST OF MERCH */
 
+
+/* LIST OF MERCH */
 .small-image {
-   max-width: 150px; /* Increase the max width */
-   max-height: 150px; /* Increase the max height */
-   display: block; /* Center the image */
-   margin: 0 auto; /* Center the image */
+   max-width: 150px; 
+   max-height: 150px; 
+   display: block; 
+   margin: 0 auto; 
 }
 .merch-bar .small-image {
    max-width: none;
  }
-
- /* Keep your existing CSS rules */
 
 .merch-bar {
    display: flex;
@@ -78,13 +75,13 @@ ul.merch-bar a{
  }
  
  .grid_4 {
-   flex: 1 0 150px; /* Adjust the width as needed */
+   flex: 1 0 150px; 
    margin: 10px;
    text-align: center;
  }
  
  .small-image {
-   max-width: 100%; /* Adjust max-width for responsiveness */
+   max-width: 100%; 
    max-height: 150px;
    display: block;
    margin: 0 auto;
@@ -98,13 +95,13 @@ ul.merch-bar a{
    margin-top: 5px;
    font-weight: bold;
    text-decoration: none !important;
-   display: inline-block; /* Display in a row */
+   display: inline-block; 
  }
  
  .title {
    font-size:2em;
    font-weight: bold;
-   display: inline-block; /* Display in a row */
+   display: inline-block; 
   
  }
  
@@ -115,16 +112,14 @@ ul.merch-bar a{
    text-align: center;
    margin-top: 5px;
    font-weight: bold;
-   text-decoration: none !important; /* Add !important to make it override other styles */
+   text-decoration: none !important; 
 }
 
-
-
  .grid_4 {
-   flex: 1 0 24%; /* This controls the flex properties */
+   flex: 1 0 24%; 
    margin: 10px;
    text-align: center;
-   max-width: 250px; /* Adjust this value to limit the width */
-   margin: 0 auto; /* Center the element within its container */
-   cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+   max-width: 250px; 
+   margin: 0 auto; 
+   cursor: pointer; 
 }
