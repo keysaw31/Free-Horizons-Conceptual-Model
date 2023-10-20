@@ -1,0 +1,47 @@
+main {
+min-height: 100vh;
+}
+
+.about-me-image img {
+   border: .3em solid white;
+   border-radius: 0.625em;
+   width: 40em;
+   height: 40em;
+   background-color: white;
+   mix-blend-mode: multiply;
+   margin-left: 10em;
+   margin-top: 4em;
+}
+
+.about-content {
+   flex: 1;
+   max-width: 40%;
+   margin-left: 15em;
+   text-align: left;
+   font-size: 1em;
+   margin-top: 20em !important;
+   margin-left: 3em !important;
+}
+
+.about-section {
+   display: flex;
+}
+
+.about-me-image img {
+  width: 100%;
+  border: 0.125em solid white;
+  border-radius: 0.625em;
+  width: 30em;
+  height: 20em;
+  background-color: white;
+  mix-blend-mode: multiply; 
+}
+
+.about-content {
+  flex: 1;
+  max-width: 40%;
+  margin-left: 1em;
+  text-align: left;
+  margin-top: 2em; 
+}
+

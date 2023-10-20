@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+   header.navbar {
+      padding: 5px 0; /* Adjust padding for smaller screens */
+   }
+
+   header.navbar a {
+      font-size: 1em; /* Adjust font size for smaller screens */
+   }
+
+   .navigation ul {
+      margin-top: 0; /* Remove margin on top */
+   }
+
+   .navigation li {
+      margin: 0 5px; /* Adjust margin for smaller screens */
+   }
+
+   .navigation a {
+      font-size: 16px; /* Adjust font size for smaller screens */
+   }
+
+   .footer-content {
+      flex-direction: column; /* Stack content vertically for smaller screens */
+   }
+
+   .left, .right {
+      text-align: center; /* Center text for smaller screens */
+   }
+
+   .footer a {
+      margin: 5px 0; /* Adjust margin for smaller screens */
+   }
+
+   .footer img {
+      width: 20px; /* Adjust image size for smaller screens */
+   }
+}
