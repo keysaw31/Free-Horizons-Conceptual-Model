@@ -85,3 +85,9 @@ button[type="submit"] {
 button[type="submit"]:hover {
    background: #777;
 }
+
+p {
+   font-size: 1.5em;
+   margin-top: 3em;
+   margin-bottom: 3em;
+}

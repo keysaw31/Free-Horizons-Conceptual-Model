@@ -1,7 +1,9 @@
+
+
 .logo img {
-   width: 100%; 
-   max-width: 400px; 
-   height: auto; 
+   width: 100%; /* Make the logo responsive */
+   max-width: 400px; /* Limit the maximum width */
+   height: auto; /* Maintain aspect ratio */
    margin-top: 5em;
 }
 
@@ -12,17 +14,17 @@
 }
 
 .content {
-   padding: 30px 0; 
+   padding: 30px 0; /* Adjust padding for mobile */
    text-align: center;
    min-height: 100vh;
 }
 
 .home-message p {
-   font-size: 1.5em; 
+   font-size: 1.5em; /* Adjust font size for mobile */
    line-height: 1.6;
-   margin-bottom: 15px; 
+   margin-bottom: 15px; /* Adjust margin for mobile */
    color: rgb(255, 255, 255);
-   max-width: 100%; 
+   max-width: 100%; /* Make sure it doesn't exceed container */
    font-style: italic; 
    font-weight: bold;
 }

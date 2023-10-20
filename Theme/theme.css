@@ -19,14 +19,12 @@ body {
    flex-direction: column;
    position: relative;
    z-index: 1;
-   overflow: hidden;
-
+   overflow-x: hidden;
    display: flex;
    flex-direction: column;
 
-   overflow: scroll;
-}
 
+}
 body {
     opacity: 0;
     transition: opacity 1s ease-in-out;
